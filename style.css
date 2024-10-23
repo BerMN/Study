@@ -1,0 +1,37 @@
+ul{
+	padding: 0;
+}
+.carouseimg{
+    height: 500px;
+    object-fit: cover;
+}
+footer {
+	background-color: rgb(67, 37, 19);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+	padding: 3%;
+}
+footer small {font-size: 115%;}
+footer a {text-decoration: none;}
+footer .pr {display: block;}
+ul.icon {padding-top: 35px;
+	margin-bottom: 20px;
+}
+/*アイコン１個あたりの設定*/
+ul.icon li {
+	display: inline-block;	/*横並びにさせる指定*/
+}
+/*アイコン画像の設定*/
+ul.icon img {
+	width: 50px;		/*画像の幅*/
+}
+ul.icon img:hover {
+	opacity: 0.5;		/*マウスオン時に透明度を80%にする。*/
+}
+small{
+	display: block;
+    color: #fff;
+    padding-bottom: 30px;
+    border-bottom: solid 1px;
+}
